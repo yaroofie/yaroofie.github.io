@@ -1,0 +1,1 @@
+import{N as e}from"./Navigation.e32c757d.js";import{_ as t}from"./DarkMode.2f2aea18.js";import{e as a,o as s,c as n,f as c}from"./index.209943e2.js";const r={components:{Navigation:e}},p={class:"p-5"};function i(_,m,l,f,d,N){const o=a("Navigation");return s(),n("main",p,[c(o,{title:"Collapse"})])}const g=t(r,[["render",i]]);export{g as default};

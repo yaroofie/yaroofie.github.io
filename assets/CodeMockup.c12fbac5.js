@@ -1,1 +1,0 @@
-import{N as e}from"./Navigation.cd078284.js";import{_ as t}from"./DarkMode.27b58acd.js";import{e as n,o as a,c as s,f as c}from"./index.bb718884.js";const r={components:{Navigation:e}},p={class:"p-5"};function i(m,_,f,d,l,u){const o=n("Navigation");return a(),s("main",p,[c(o,{title:"Code mockup"})])}const $=t(r,[["render",i]]);export{$ as default};

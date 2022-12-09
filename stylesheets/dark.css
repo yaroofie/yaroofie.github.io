@@ -845,6 +845,7 @@ h5 {
     flex-direction: column;
     align-items: flex-start;
     border: 1px solid #ebf193;
+    box-shadow: -5px -5px 10px rgb(250, 251, 255), 5px 5px 10px rgba(22, 27, 29, 0.23);
     padding: 0.5rem;
     width: 150px;
     height: 150px;
@@ -909,6 +910,30 @@ h5 {
   text-align: center;
 }
 
+.my_work_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.my_work_section > h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.my_work_section > ul {
+  width: 100%;
+}
+@media screen and (min-width: 760px) {
+  .my_work_section > ul {
+    width: 80%;
+  }
+}
+
 .radial-progress {
   position: relative;
   display: inline-grid;
@@ -931,7 +956,7 @@ h5 {
   right: 0;
   bottom: 0;
   left: 0;
-  background: radial-gradient(farthest-side, currentColor 98%, rgba(0, 0, 0, 0)) top/var(--thickness) var(--thickness) no-repeat, conic-gradient(currentColor calc(var(--value) * 1%), rgba(0, 0, 0, 0) 0);
+  background: radial-gradient(farthest-side, currentColor 98%, rgba(0, 0, 0, 0)) top/var(--thickness) var(--thickness) no-repeat, conic-gradient(currentColor calc(var(--value) * 1%), rgba(102, 101, 101, 0.3) 0);
   -webkit-mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - var(--thickness)), #000 calc(100% - var(--thickness)));
   mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - var(--thickness)), #000 calc(100% - var(--thickness)));
 }

@@ -1,0 +1,1 @@
+import{N as t}from"./Navigation.e32c757d.js";import{_ as n}from"./DarkMode.2f2aea18.js";import{e,o as a,c as s,f as c}from"./index.209943e2.js";const r={components:{Navigation:t}},i={class:"p-5"};function p(_,m,f,d,l,u){const o=e("Navigation");return a(),s("main",i,[c(o,{title:"Countdown"})])}const g=n(r,[["render",p]]);export{g as default};
