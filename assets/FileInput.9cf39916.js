@@ -1,0 +1,1 @@
+import{N as t}from"./Navigation.1e81a4f3.js";import{_ as e}from"./DarkMode.70832c03.js";import{d as n,o as a,c as s,e as c}from"./index.040a374d.js";const r={components:{Navigation:t}},i={class:"p-5"};function p(_,m,l,f,d,u){const o=n("Navigation");return a(),s("main",i,[c(o,{title:"File Input"})])}const g=e(r,[["render",p]]);export{g as default};

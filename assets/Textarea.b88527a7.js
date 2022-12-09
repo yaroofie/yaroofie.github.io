@@ -1,0 +1,1 @@
+import{N as e}from"./Navigation.1e81a4f3.js";import{_ as t}from"./DarkMode.70832c03.js";import{d as a,o as n,c as s,e as r}from"./index.040a374d.js";const c={components:{Navigation:e}},i={class:"p-5"};function p(_,m,f,d,l,x){const o=a("Navigation");return n(),s("main",i,[r(o,{title:"Textarea"})])}const $=t(c,[["render",p]]);export{$ as default};

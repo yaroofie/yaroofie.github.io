@@ -1,1 +1,0 @@
-import{N as t}from"./Navigation.f11af131.js";import{_ as e}from"./DarkMode.2e4a2a68.js";import{d as s,o as n,c as a,e as c}from"./index.c9412a62.js";const r={components:{Navigation:t}},p={class:"p-5"};function i(_,m,f,d,l,N){const o=s("Navigation");return n(),a("main",p,[c(o,{title:"Steps"})])}const g=e(r,[["render",i]]);export{g as default};

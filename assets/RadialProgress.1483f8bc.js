@@ -1,0 +1,1 @@
+import{N as e}from"./Navigation.1e81a4f3.js";import{_ as t}from"./DarkMode.70832c03.js";import{d as a,o as s,c as n,e as r}from"./index.040a374d.js";const c={components:{Navigation:e}},i={class:"p-5"};function p(_,m,d,l,f,g){const o=a("Navigation");return s(),n("main",i,[r(o,{title:"Radial progress"})])}const $=t(c,[["render",p]]);export{$ as default};

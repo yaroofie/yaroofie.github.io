@@ -1,1 +1,0 @@
-import{N as e}from"./Navigation.f11af131.js";import{_ as t}from"./DarkMode.2e4a2a68.js";import{d as n,o as a,c as s,e as c}from"./index.c9412a62.js";const r={components:{Navigation:e}},p={class:"p-5"};function i(m,_,f,d,l,u){const o=n("Navigation");return a(),s("main",p,[c(o,{title:"Phone mockup"})])}const v=t(r,[["render",i]]);export{v as default};
