@@ -1,1 +1,0 @@
-import{N as e}from"./Navigation.1e81a4f3.js";import{_ as t}from"./DarkMode.70832c03.js";import{d as n,o as a,c as s,e as r}from"./index.040a374d.js";const c={components:{Navigation:e}},i={class:"p-5"};function p(_,m,d,f,l,v){const o=n("Navigation");return a(),s("main",i,[r(o,{title:"Divider"})])}const g=t(c,[["render",p]]);export{g as default};

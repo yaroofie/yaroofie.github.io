@@ -1,0 +1,1 @@
+import{N as t}from"./Navigation.cd078284.js";import{_ as e}from"./DarkMode.27b58acd.js";import{e as n,o as a,c as s,f as c}from"./index.bb718884.js";const r={components:{Navigation:t}},p={class:"p-5"};function i(_,m,f,l,d,u){const o=n("Navigation");return a(),s("main",p,[c(o,{title:"Text Input"})])}const $=e(r,[["render",i]]);export{$ as default};
