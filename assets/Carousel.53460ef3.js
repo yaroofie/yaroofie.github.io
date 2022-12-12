@@ -1,1 +1,0 @@
-import{N as e}from"./Navigation.e32c757d.js";import{_ as t}from"./DarkMode.2f2aea18.js";import{e as a,o as s,c as n,f as r}from"./index.209943e2.js";const c={components:{Navigation:e}},i={class:"p-5"};function p(_,m,f,l,d,u){const o=a("Navigation");return s(),n("main",i,[r(o,{title:"Carousel"})])}const g=t(c,[["render",p]]);export{g as default};

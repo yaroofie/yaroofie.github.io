@@ -1,1 +1,0 @@
-import{N as t}from"./Navigation.e32c757d.js";import{_ as e}from"./DarkMode.2f2aea18.js";import{e as n,o as a,c as s,f as r}from"./index.209943e2.js";const c={components:{Navigation:t}},p={class:"p-5"};function i(_,m,f,d,l,N){const o=n("Navigation");return a(),s("main",p,[r(o,{title:"Dropdown"})])}const g=e(c,[["render",i]]);export{g as default};

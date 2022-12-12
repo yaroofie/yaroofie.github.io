@@ -41,23 +41,23 @@ h1, h2, h3, h4, h5, h6, .text-primary {
 }
 
 h1 {
-  font-weight: 600 !important;
+  font-weight: 600;
 }
 
 h2 {
-  font-weight: 500 !important;
+  font-weight: 500;
 }
 
 h3 {
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 h4 {
-  font-weight: 300 !important;
+  font-weight: 300;
 }
 
 h5 {
-  font-weight: 200 !important;
+  font-weight: 200;
 }
 
 .alert {
@@ -376,20 +376,84 @@ h5 {
 
 .card {
   position: relative;
-  padding: 15px;
-  width: 300px;
-  background: #eff2f9;
-  border: 1px solid #e5e0e0;
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
+  background: #eff2f9;
   font-family: "Nunito Sans", sans-serif;
   font-size: 1rem;
   color: #3c6892;
+}
+.card .body {
   display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
-  justify-content: space-between;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+.card .body :where(p) {
+  flex-grow: 1;
+}
+@media (min-width: 768px) {
+  .card .body {
+    padding: 1.5rem;
+  }
+}
+.cardcompact .body {
+  padding: 0.75rem;
+}
+.card.image {
+  display: grid;
+}
+.card.image:before, .card.image > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.card.image:before {
+  position: relative;
+  content: "";
+  z-index: 10;
+  background-color: #4b4a4e;
+  opacity: 0.75;
+  border-radius: 20px;
+}
+.card.image :where(figure) {
+  overflow: hidden;
+  border-radius: inherit;
+}
+.card.image .body {
+  position: relative;
+  z-index: 20;
+}
+.card.image .body * {
+  color: #eff3f6;
+}
+.card figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card :where(figure:first-child) {
+  overflow: hidden;
+  border-start-start-radius: inherit;
+  border-start-end-radius: inherit;
+  border-end-start-radius: unset;
+  border-end-end-radius: unset;
 }
 .card .title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 600;
+  text-transform: uppercase;
+}
+.card .actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.5rem;
 }
 .card .sub-title {
   font-size: 0.8rem;
@@ -933,6 +997,10 @@ h5 {
     width: 80%;
   }
 }
+.my_work_section > ul .work {
+  width: 200px;
+  height: 200px;
+}
 
 .radial-progress {
   position: relative;
@@ -993,14 +1061,11 @@ h5 {
 .neumorphism .card .btn:hover,
 .neumorphism .artboard .btn:hover {
   box-shadow: inset -6px -6px 10px rgb(250, 251, 255), inset 6px 6px 10px rgba(22, 27, 29, 0.23);
-  background: #e4ebf1;
 }
 .neumorphism .alert .btn:active,
 .neumorphism .card .btn:active,
 .neumorphism .artboard .btn:active {
   box-shadow: none;
-  background: #eff2f9;
-  color: #3c6892;
   transform: translateY(4px);
 }
 
