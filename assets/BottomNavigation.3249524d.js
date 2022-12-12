@@ -1,0 +1,1 @@
+import{N as t}from"./Navigation.0d022a3b.js";import{_ as a}from"./plugin-vueexport-helper.2444895f.js";import{f as n,o as e,c as s,g as c}from"./index.5946651b.js";const i={components:{Navigation:t}},r={class:"p-5"};function m(p,_,f,l,d,g){const o=n("Navigation");return e(),s("main",r,[c(o,{title:"Bottom navigation"})])}const B=a(i,[["render",m]]);export{B as default};

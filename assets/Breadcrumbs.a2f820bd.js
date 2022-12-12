@@ -1,0 +1,1 @@
+import{N as t}from"./Navigation.0d022a3b.js";import{_ as e}from"./plugin-vueexport-helper.2444895f.js";import{f as a,o as s,c as n,g as r}from"./index.5946651b.js";const c={components:{Navigation:t}},i={class:"p-5"};function m(p,_,f,d,l,u){const o=a("Navigation");return s(),n("main",i,[r(o,{title:"Breadcrumbs"})])}const B=e(c,[["render",m]]);export{B as default};
