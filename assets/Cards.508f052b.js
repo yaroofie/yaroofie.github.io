@@ -1,1 +1,0 @@
-import{N as t}from"./Navigation.e0302632.js";import{_ as e}from"./_plugin-vue_export-helper.cdc0426e.js";import{f as a,o as n,c as s,g as r}from"./index.0f24cdaf.js";const c={components:{Navigation:t}},i={class:"p-5"};function p(_,m,f,d,l,N){const o=a("Navigation");return n(),s("main",i,[r(o,{title:"Card"})])}const $=e(c,[["render",p]]);export{$ as default};
