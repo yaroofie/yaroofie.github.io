@@ -1,1 +1,0 @@
-import{N as t}from"./Navigation.0d022a3b.js";import{_ as e}from"./plugin-vueexport-helper.2444895f.js";import{f as a,o as n,c as s,g as r}from"./index.5946651b.js";const c={components:{Navigation:t}},i={class:"p-5"};function p(_,m,f,l,d,x){const o=a("Navigation");return n(),s("main",i,[r(o,{title:"Textarea"})])}const v=e(c,[["render",p]]);export{v as default};

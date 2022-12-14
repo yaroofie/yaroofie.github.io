@@ -1,0 +1,1 @@
+import{N as t}from"./Navigation.c519e818.js";import{_ as e}from"./plugin-vueexport-helper.2444895f.js";import{f as a,o as n,c as s,g as c}from"./index.edf42cc6.js";const r={components:{Navigation:t}},i={class:"p-5"};function p(_,m,f,d,l,N){const o=a("Navigation");return n(),s("main",i,[c(o,{title:"Radio"})])}const $=e(r,[["render",p]]);export{$ as default};

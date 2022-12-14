@@ -1,1 +1,0 @@
-import{N as t}from"./Navigation.0d022a3b.js";import{_ as e}from"./plugin-vueexport-helper.2444895f.js";import{f as n,o as a,c as s,g as c}from"./index.5946651b.js";const r={components:{Navigation:t}},p={class:"p-5"};function i(m,_,f,l,d,u){const o=n("Navigation");return a(),s("main",p,[c(o,{title:"Phone mockup"})])}const k=e(r,[["render",i]]);export{k as default};
