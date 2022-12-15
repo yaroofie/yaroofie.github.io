@@ -1,1 +1,0 @@
-import{N as t}from"./Navigation.c519e818.js";import{_ as e}from"./plugin-vueexport-helper.2444895f.js";import{f as n,o as a,c as s,g as r}from"./index.edf42cc6.js";const c={components:{Navigation:t}},p={class:"p-5"};function i(_,m,f,d,l,N){const o=n("Navigation");return a(),s("main",p,[r(o,{title:"Dropdown"})])}const $=e(c,[["render",i]]);export{$ as default};

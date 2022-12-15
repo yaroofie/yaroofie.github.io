@@ -1,1 +1,0 @@
-import{N as t}from"./Navigation.c519e818.js";import{_ as n}from"./plugin-vueexport-helper.2444895f.js";import{f as e,o as a,c as s,g as c}from"./index.edf42cc6.js";const r={components:{Navigation:t}},i={class:"p-5"};function p(_,m,f,d,l,u){const o=e("Navigation");return a(),s("main",i,[c(o,{title:"Countdown"})])}const $=n(r,[["render",p]]);export{$ as default};

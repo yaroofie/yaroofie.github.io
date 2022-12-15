@@ -1,1 +1,0 @@
-import{N as t}from"./Navigation.c519e818.js";import{_ as e}from"./plugin-vueexport-helper.2444895f.js";import{f as a,o as s,c as n,g as c}from"./index.edf42cc6.js";const r={components:{Navigation:t}},p={class:"p-5"};function i(_,m,l,f,d,N){const o=a("Navigation");return s(),n("main",p,[c(o,{title:"Collapse"})])}const $=e(r,[["render",i]]);export{$ as default};
