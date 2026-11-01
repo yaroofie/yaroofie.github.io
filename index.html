@@ -1,27 +1,48 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- favicon -->
-    <link rel="icon" href="/icon_Yaroofie.ico" />
-    <!-- styles -->
-    <link rel="stylesheet" id="themefile" href="/stylesheets/index.css" />
-    <!-- icons -->
-    <link rel="stylesheet" href="/fontawesome.css" />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yaroofie,Web Developer</title>
-    <script type="module" crossorigin src="/assets/index.fde7624c.js"></script>
-    <link rel="stylesheet" href="/assets/index.4304cfbf.css">
-  </head>
-  <body>
-    <div id="app"></div>
-    
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yaroofie</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="canonical" href="https://yaroofie.github.io/en/">
+<link rel="alternate" hreflang="en" href="https://yaroofie.github.io/en/">
+<link rel="alternate" hreflang="fa" href="https://yaroofie.github.io/fa/">
+<link rel="alternate" hreflang="de" href="https://yaroofie.github.io/de/">
+<link rel="alternate" hreflang="x-default" href="https://yaroofie.github.io/en/">
+<style>
+  html, body { height: 100%; margin: 0; background: #05060f; color: #e6e6f0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  body { display: flex; align-items: center; justify-content: center; }
+  a { color: #7c9cff; }
+</style>
+<script>
+(function () {
+  var supported = ['en', 'fa', 'de'];
+  var chosen = null;
+
+  // Remember the language picked on a previous visit (Nuxt i18n cookie).
+  try {
+    var match = document.cookie.match(/(?:^|;\s*)i18n_redirected=([^;]+)/);
+    if (match && supported.indexOf(match[1]) !== -1) { chosen = match[1]; }
+  } catch (e) {}
+
+  // Otherwise use the browser language.
+  if (!chosen) {
+    var langs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || 'en'];
+    for (var i = 0; i < langs.length; i++) {
+      var code = String(langs[i]).toLowerCase().split('-')[0];
+      if (supported.indexOf(code) !== -1) { chosen = code; break; }
+    }
+  }
+
+  if (!chosen) { chosen = 'en'; }
+  location.replace('/' + chosen + '/');
+})();
+</script>
+</head>
+<body>
+  <noscript>
+    <p>Choose a language: <a href="/en/">English</a> · <a href="/fa/">فارسی</a> · <a href="/de/">Deutsch</a></p>
+  </noscript>
+</body>
 </html>
